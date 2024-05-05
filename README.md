@@ -5,10 +5,10 @@ Pose estimation of *C. elegans* in image sequences is challenging and even more 
 In this article, a novel method for predicting *C. elegans* poses in cases of multi-worm aggregation and aggregation with noise is proposed. To solve this problem we use an improved U-Net model capable of obtaining images of the next aggregated worm posture. This neural network model was trained/validated using a custom-generated dataset with a synthetic image simulator. Subsequently, tested with a dataset of real images. The results obtained were greater than 75% in precision and 0.65 with Intersection over Union (IoU) values.
 
 # Proposed neural network model
-![GitHub Logo](https://github.com/playanaC/Skeleton_prediction/blob/main/model.PNG
+![image](https://github.com/playanaC/Skeleton_prediction/blob/main/model.PNG)
 
 
-# Tracking algoritm
+# Tracking algorithm
 ![image](https://github.com/playanaC/Skeleton_prediction/blob/main/tracking_algoritm.png)
 
 
@@ -18,6 +18,10 @@ In this article, a novel method for predicting *C. elegans* poses in cases of mu
 
 # Image adquisition system:
 - Images were captured by an [open hardware system](https://github.com/JCPuchalt/SiViS).
+
+
+# Examples for aggregation and noise
+![image](https://github.com/playanaC/Skeleton_prediction/blob/main/example_results.png)
 
 
 # References:
